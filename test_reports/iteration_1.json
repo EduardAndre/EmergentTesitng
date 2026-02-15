@@ -21,17 +21,20 @@
   },
   
   "passed_tests": [
-    "Application loads successfully at https://soap-order.preview.emergentagent.com",
-    "Romanian soap catalog content displays correctly",
-    "15 soap products visible with names (Inimă, Stea, Floare, etc.)",
-    "Product cards show images, names, and prices in RON currency",
-    "Theme toggle button present in top-left corner (moon/sun icon)",
-    "Step indicators display correctly (1: Alege modele, 2: Personalizează, 3: Comandă)",
-    "Step 1 is properly highlighted as active",
-    "Add to cart buttons ('Adaugă în coș') visible for all products",
-    "Professional and responsive design layout",
-    "Proper Romanian language implementation throughout UI",
-    "All required data-testid attributes present in code for automation"
+    "✅ Application loads successfully at https://soap-order.preview.emergentagent.com",
+    "✅ Romanian soap catalog title 'Săpunuri Artizanale' displays correctly",
+    "✅ All 15 soap products found and displayed (verified count: 15)",
+    "✅ Product cards show proper Romanian names: 'Inimă' (15 RON), 'Stea' (12 RON), 'Floare' (18 RON)",
+    "✅ Theme toggle button found and present in top-left corner",
+    "✅ Step indicators display correctly: '1: Alege modele, 2: Personalizează, 3: Comandă'",
+    "✅ Step 1 properly highlighted as active step",
+    "✅ 'Adaugă în coș' (Add to cart) buttons visible for all products",
+    "✅ Professional responsive design with proper spacing and layout",
+    "✅ High-quality product images loading correctly from Unsplash",
+    "✅ RON currency properly displayed for all products",
+    "✅ Romanian language implementation complete throughout interface",
+    "✅ All required data-testid attributes present in code for future automation",
+    "✅ Sub-heading 'Alege modelele preferate și cantitatea dorită' displays correctly"
   ],
   
   "test_report_links": [],
