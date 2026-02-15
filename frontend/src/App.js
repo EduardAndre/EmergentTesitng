@@ -29,21 +29,21 @@ const TikTokIcon = ({ className }) => (
 
 // Soap product data - 15 models
 const SOAP_MODELS = [
-  { id: 1, name: "Inimă", price: 15, image: "https://images.unsplash.com/photo-1607006344152-62699f97b42c?auto=format&fit=crop&w=800&q=80" },
-  { id: 2, name: "Stea", price: 12, image: "https://images.unsplash.com/photo-1709462970940-64ed68e6bf5d?auto=format&fit=crop&w=800&q=80" },
-  { id: 3, name: "Floare", price: 18, image: "https://images.unsplash.com/photo-1607006555278-8d2de55615e2?auto=format&fit=crop&w=800&q=80" },
-  { id: 4, name: "Lună", price: 14, image: "https://images.unsplash.com/photo-1750919753634-f89bdf1bae79?auto=format&fit=crop&w=800&q=80" },
-  { id: 5, name: "Trandafir", price: 20, image: "https://images.unsplash.com/photo-1646910863463-777f86df957e?auto=format&fit=crop&w=800&q=80" },
-  { id: 6, name: "Fluture", price: 16, image: "https://images.unsplash.com/photo-1607006344152-62699f97b42c?auto=format&fit=crop&w=800&q=80" },
-  { id: 7, name: "Frunză", price: 13, image: "https://images.unsplash.com/photo-1709462970940-64ed68e6bf5d?auto=format&fit=crop&w=800&q=80" },
-  { id: 8, name: "Scoică", price: 17, image: "https://images.unsplash.com/photo-1607006555278-8d2de55615e2?auto=format&fit=crop&w=800&q=80" },
-  { id: 9, name: "Nor", price: 11, image: "https://images.unsplash.com/photo-1750919753634-f89bdf1bae79?auto=format&fit=crop&w=800&q=80" },
-  { id: 10, name: "Steluță", price: 10, image: "https://images.unsplash.com/photo-1646910863463-777f86df957e?auto=format&fit=crop&w=800&q=80" },
-  { id: 11, name: "Cerc", price: 9, image: "https://images.unsplash.com/photo-1607006344152-62699f97b42c?auto=format&fit=crop&w=800&q=80" },
-  { id: 12, name: "Oval", price: 9, image: "https://images.unsplash.com/photo-1709462970940-64ed68e6bf5d?auto=format&fit=crop&w=800&q=80" },
-  { id: 13, name: "Pătrat", price: 8, image: "https://images.unsplash.com/photo-1607006555278-8d2de55615e2?auto=format&fit=crop&w=800&q=80" },
-  { id: 14, name: "Lavandă", price: 19, image: "https://images.unsplash.com/photo-1750919753634-f89bdf1bae79?auto=format&fit=crop&w=800&q=80" },
-  { id: 15, name: "Mentă", price: 15, image: "https://images.unsplash.com/photo-1646910863463-777f86df957e?auto=format&fit=crop&w=800&q=80" },
+  { id: 1, name: "Inimă", image: "https://images.unsplash.com/photo-1607006344152-62699f97b42c?auto=format&fit=crop&w=800&q=80" },
+  { id: 2, name: "Stea", image: "https://images.unsplash.com/photo-1709462970940-64ed68e6bf5d?auto=format&fit=crop&w=800&q=80" },
+  { id: 3, name: "Floare", image: "https://images.unsplash.com/photo-1607006555278-8d2de55615e2?auto=format&fit=crop&w=800&q=80" },
+  { id: 4, name: "Lună",  image: "https://images.unsplash.com/photo-1750919753634-f89bdf1bae79?auto=format&fit=crop&w=800&q=80" },
+  { id: 5, name: "Trandafir", image: "https://images.unsplash.com/photo-1646910863463-777f86df957e?auto=format&fit=crop&w=800&q=80" },
+  { id: 6, name: "Fluture",  image: "https://images.unsplash.com/photo-1607006344152-62699f97b42c?auto=format&fit=crop&w=800&q=80" },
+  { id: 7, name: "Frunză",  image: "https://images.unsplash.com/photo-1709462970940-64ed68e6bf5d?auto=format&fit=crop&w=800&q=80" },
+  { id: 8, name: "Scoică",  image: "https://images.unsplash.com/photo-1607006555278-8d2de55615e2?auto=format&fit=crop&w=800&q=80" },
+  { id: 9, name: "Nor",  image: "https://images.unsplash.com/photo-1750919753634-f89bdf1bae79?auto=format&fit=crop&w=800&q=80" },
+  { id: 10, name: "Steluță",  image: "https://images.unsplash.com/photo-1646910863463-777f86df957e?auto=format&fit=crop&w=800&q=80" },
+  { id: 11, name: "Cerc",  image: "https://images.unsplash.com/photo-1607006344152-62699f97b42c?auto=format&fit=crop&w=800&q=80" },
+  { id: 12, name: "Oval",  image: "https://images.unsplash.com/photo-1709462970940-64ed68e6bf5d?auto=format&fit=crop&w=800&q=80" },
+  { id: 13, name: "Pătrat",  image: "https://images.unsplash.com/photo-1607006555278-8d2de55615e2?auto=format&fit=crop&w=800&q=80" },
+  { id: 14, name: "Lavandă",  image: "https://images.unsplash.com/photo-1750919753634-f89bdf1bae79?auto=format&fit=crop&w=800&q=80" },
+  { id: 15, name: "Mentă",  image: "https://images.unsplash.com/photo-1646910863463-777f86df957e?auto=format&fit=crop&w=800&q=80" },
 ];
 
 // Available colors
