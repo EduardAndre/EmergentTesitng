@@ -1,0 +1,179 @@
+{
+  "design_guidelines": {
+    "identity": {
+      "name": "E1",
+      "role": "Anti-AI Creative Designer",
+      "mission": "Create unique, emotional, and content-first designs that break category conventions.",
+      "principles": [
+        "Fusion over Imitation",
+        "Emotion First",
+        "Content is King",
+        "Zoom In",
+        "Negative Space",
+        "Contrast"
+      ]
+    },
+    "project_context": {
+      "app_name": "Artisan Soap Catalog",
+      "app_type": "Ecommerce Catalog",
+      "target_audience": "Romanian customers looking for handmade soaps",
+      "emotional_tone": "Organic, Elegant, Minimalist, Trustworthy",
+      "key_functionality": [
+        "Catalog Grid (15 Models)",
+        "Quantity Selection",
+        "Customization Flow (Color/Scent)",
+        "WhatsApp Order Integration",
+        "Dark/Light Theme Toggle"
+      ]
+    },
+    "typography": {
+      "headings": {
+        "font_family": "Playfair Display, serif",
+        "usage": "Product titles, Section headers, Hero text",
+        "weights": ["400", "600", "700"],
+        "letter_spacing": "tracking-tight"
+      },
+      "body": {
+        "font_family": "Manrope, sans-serif",
+        "usage": "Descriptions, UI elements, Buttons, Price",
+        "weights": ["300", "400", "500", "600"],
+        "line_height": "leading-relaxed"
+      },
+      "installation": "Import from Google Fonts in index.css: @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');"
+    },
+    "colors": {
+      "theme_strategy": "Light Mode Default with Dark Mode Toggle",
+      "palette": {
+        "light": {
+          "background": "#FAFAFA",
+          "foreground": "#1A1A1A",
+          "card": "#FFFFFF",
+          "card_foreground": "#1A1A1A",
+          "primary": "#1A1A1A",
+          "primary_foreground": "#FFFFFF",
+          "secondary": "#F4F4F5",
+          "secondary_foreground": "#18181B",
+          "muted": "#F4F4F5",
+          "muted_foreground": "#71717A",
+          "accent": "#F4F4F5",
+          "accent_foreground": "#18181B",
+          "destructive": "#EF4444",
+          "destructive_foreground": "#FAFAFA",
+          "border": "#E4E4E7",
+          "input": "#E4E4E7",
+          "ring": "#18181B"
+        },
+        "dark": {
+          "background": "#121212",
+          "foreground": "#EDEDED",
+          "card": "#1E1E1E",
+          "card_foreground": "#EDEDED",
+          "primary": "#EDEDED",
+          "primary_foreground": "#121212",
+          "secondary": "#27272A",
+          "secondary_foreground": "#FAFAFA",
+          "muted": "#27272A",
+          "muted_foreground": "#A1A1AA",
+          "accent": "#27272A",
+          "accent_foreground": "#FAFAFA",
+          "destructive": "#7F1D1D",
+          "destructive_foreground": "#FAFAFA",
+          "border": "#27272A",
+          "input": "#27272A",
+          "ring": "#D4D4D8"
+        }
+      },
+      "product_colors": {
+        "pink": "#FEC1D3",
+        "orange": "#FFA500",
+        "blue": "#B0E0E6",
+        "purple": "#E6E6FA",
+        "white": "#FFFFFF"
+      },
+      "whatsapp_brand": "#25D366"
+    },
+    "layout_strategy": {
+      "grid_system": {
+        "catalog": "grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+        "container_padding": "p-4 md:p-8 lg:p-12",
+        "max_width": "max-w-7xl mx-auto"
+      },
+      "spacing": {
+        "section_gap": "gap-12 md:gap-20",
+        "card_padding": "p-6"
+      }
+    },
+    "components": {
+      "buttons": {
+        "primary": "rounded-full px-8 py-3 text-sm font-medium transition-all hover:scale-105 active:scale-95",
+        "whatsapp": "bg-[#25D366] text-white hover:bg-[#128C7E] rounded-full flex items-center gap-2 shadow-lg hover:shadow-xl transition-all"
+      },
+      "cards": {
+        "style": "minimalist",
+        "border_radius": "rounded-2xl",
+        "shadow": "shadow-sm hover:shadow-md transition-shadow duration-300",
+        "interaction": "image zoom on hover"
+      },
+      "inputs": {
+        "style": "flat",
+        "border": "border-b-2 border-border focus:border-primary bg-transparent rounded-none px-0"
+      }
+    },
+    "assets": {
+      "images": {
+        "soap_placeholders": [
+          "https://images.unsplash.com/photo-1607006344152-62699f97b42c?auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1709462970940-64ed68e6bf5d?auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1607006555278-8d2de55615e2?auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1750919753634-f89bdf1bae79?auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1646910863463-777f86df957e?auto=format&fit=crop&w=800&q=80"
+        ],
+        "textures": [
+          "https://images.unsplash.com/photo-1768725004314-2e15f6780ab9?auto=format&fit=crop&w=800&q=80",
+          "https://images.unsplash.com/photo-1642621188724-f85258807ba4?auto=format&fit=crop&w=800&q=80"
+        ]
+      },
+      "icons": {
+        "library": "lucide-react",
+        "socials": ["Instagram", "Phone", "Mail"],
+        "custom": "Use simple SVG paths for TikTok if missing in Lucide"
+      }
+    },
+    "motion": {
+      "library": "framer-motion",
+      "page_transition": {
+        "initial": { "opacity": 0, "y": 20 },
+        "animate": { "opacity": 1, "y": 0 },
+        "exit": { "opacity": 0, "y": -20 },
+        "transition": { "duration": 0.4, "ease": "easeOut" }
+      },
+      "micro_interactions": {
+        "hover": { "scale": 1.02 },
+        "tap": { "scale": 0.98 }
+      }
+    },
+    "accessibility": {
+      "contrast_ratios": "Ensure 4.5:1 for normal text",
+      "aria_labels": "Required for all icon-only buttons",
+      "focus_states": "Visible focus ring (ring-2 ring-primary ring-offset-2)"
+    },
+    "universal_guidelines": [
+      "Do NOT use gradients for dark colors.",
+      "Do NOT center align the app container.",
+      "Use sonner for toasts.",
+      "Components MUST use named exports.",
+      "All interactive elements MUST include data-testid attribute.",
+      "Use Lucide React for icons."
+    ],
+    "instructions_to_main_agent": [
+      "1. Install dependencies: framer-motion, lucide-react, clsx, tailwind-merge, sonner.",
+      "2. Setup Tailwind theme colors in tailwind.config.js based on the palette provided.",
+      "3. Create a 'SoapCard' component that handles display and quantity selection.",
+      "4. Implement a 'CartContext' or state to manage selected items across steps.",
+      "5. Build the flow: Catalog -> Customization (Color/Scent) -> Summary -> WhatsApp.",
+      "6. Ensure the WhatsApp message is pre-filled with the order details.",
+      "7. Use the provided image URLs for the soap products (cycle through them to simulate 15 models).",
+      "8. Add a ThemeToggle component in the top-left as requested."
+    ]
+  }
+}
